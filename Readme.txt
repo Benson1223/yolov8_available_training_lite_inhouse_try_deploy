@@ -17,3 +17,6 @@
 
 [5] 訓練模型：
 -> python -c "from ultralytics import YOLO; model = YOLO('yolov8n.yaml'); results = model.train(data='coco128.yaml', epochs=100, imgsz=640)"
+
+
+佈署時，要新增runs/detect 資料夾
