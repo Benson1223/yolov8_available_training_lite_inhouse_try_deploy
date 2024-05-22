@@ -1,0 +1,4 @@
+train: ./momo640/train # training dataset
+val: ./momo640/valid  # validation dataset
+nc: 1
+names: ['Pothole']
