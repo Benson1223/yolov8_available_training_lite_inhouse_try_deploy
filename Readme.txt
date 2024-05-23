@@ -20,3 +20,8 @@
 
 
 佈署時，要新增runs/detect 資料夾
+
+V9   yolov9c.pt -->
+   # Load a model
+    model = YOLO("yolov9c.yaml")  # build a new model from scratch
+    model = YOLO("yolov9c.pt")  # load a pretrained model (recommended
