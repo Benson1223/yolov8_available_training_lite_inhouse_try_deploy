@@ -1,6 +1,6 @@
 [環境設定] 安裝Pytorch
 -> conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
-
+-->laptop RTX3060 :pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
 ==================================================
 
 [1] 安裝 Ultralytics YOLO：
