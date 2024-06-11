@@ -25,3 +25,11 @@ V9   yolov9c.pt -->https://docs.ultralytics.com/models/yolov9/#performance-on-ms
    # Load a model
     model = YOLO("yolov9c.yaml")  # build a new model from scratch
     model = YOLO("yolov9c.pt")  # load a pretrained model (recommended
+
+V9技術文章:
+https://blog.csdn.net/csdn_xmj/article/details/136294694
+https://blog.csdn.net/StopAndGoyyy/article/details/138631828
+https://jeremy455576.medium.com/yolov4%E4%BD%BF%E7%94%A8%E6%8A%80%E8%A1%93%E8%84%88%E7%B5%A1%E5%BD%99%E6%95%B4-backbone-4408869015c2
+https://ithelp.ithome.com.tw/m/articles/10337203
+https://blog.csdn.net/YXD0514/article/details/132466512
+https://blog.csdn.net/java1314777/article/details/136237323
