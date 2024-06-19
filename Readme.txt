@@ -33,3 +33,12 @@ https://jeremy455576.medium.com/yolov4%E4%BD%BF%E7%94%A8%E6%8A%80%E8%A1%93%E8%84
 https://ithelp.ithome.com.tw/m/articles/10337203
 https://blog.csdn.net/YXD0514/article/details/132466512
 https://blog.csdn.net/java1314777/article/details/136237323
+
+0619進度:
+https://blog.csdn.net/weixin_46875627/article/details/136711521
+https://www.researchgate.net/figure/RepConv-and-RepConvNRepConv-has-one-more-Batch-Normalization-Layer-branch-than-RepConvN_fig4_372346827
+https://aiacademy.tw/yolov7/
+RepConv [6] 是一個著名的模型重參數化方法之一，它在訓練時將 3x3 卷積、1x1 卷積和 identity connection (id) 組合在一個卷積層中，而在推論時將他重組成一個 3x3 的卷積，這個方法在 VGG 架構上取得了優異的性能，如 圖四 所示。
+
+RepConvN: Re-Parameterized Convolution with No ID
+ID: 恒等快捷连接（identity shortcut connection）
