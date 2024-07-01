@@ -42,3 +42,5 @@ RepConv [6] 是一個著名的模型重參數化方法之一，它在訓練時�
 
 RepConvN: Re-Parameterized Convolution with No ID
 ID: 恒等快捷连接（identity shortcut connection）
+
+0701 intern https://internship.ps.ent.tsmc.com/ch/qa.html
