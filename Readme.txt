@@ -44,3 +44,14 @@ RepConvN: Re-Parameterized Convolution with No ID
 ID: 恒等快捷连接（identity shortcut connection）
 
 0701 intern https://internship.ps.ent.tsmc.com/ch/qa.html
+
+0712 嘗試裁減
+import torch
+
+# 原始的图像尺寸为(16, 15, 257, 768)
+img = torch.randn(16, 15, 257, 768)
+
+# 裁剪图像的高度，将257转换为256
+img_cropped = img[:, :, :256, :]
+
+print(img_cropped.shape)  # 应该输出 torch.Size([16, 15, 256, 768])
